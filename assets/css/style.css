@@ -1,0 +1,55 @@
+body {
+	background: url("../images/pow-star.png");
+}
+
+.character {
+	display: block;
+	padding: 4px 20px 20px 20px;
+	background-color: #fff;
+	display: block;;
+	border: 1px solid #ddd
+	border-radius: 4px;
+	transition: border .2s ease-in-out;
+}
+	
+	
+
+.character >img {
+	margin-right: auto;
+    margin-left: auto;
+}
+
+#numWins, #numloses {
+	font-weight:bold;
+}
+
+#description {
+	background-color: black;
+	padding: 20px;
+}
+
+#description > p {
+	color: white;
+}
+
+.scoreBoard {
+	background-color: #6682af;
+	font-size: 16px;
+}
+
+.random {
+	color: #393d44;
+}
+
+.number-to-guess {
+	font-size: 24px;
+}
+
+#mainTitle{
+	font-size: 36px;
+	color: #284e8f;
+}
+
+
+
+
